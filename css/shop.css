@@ -37,3 +37,9 @@ li {
     align-items: center;
     gap: 100px;
 }
+.high_left li.active a{
+    padding: 0 10px;
+    padding-bottom:20px;
+    background-color: white;
+    color: black;
+}

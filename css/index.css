@@ -3,7 +3,10 @@ a{
     text-decoration: none;
 }
 body{
+    display: flex;
     margin: 0px;
+    height:100%;
+    flex-direction: column;
 }
 li {
     list-style-type: none;
@@ -37,11 +40,17 @@ li {
     align-items: center;
     gap: 100px;
 }
-.high_left a{
-
-    padding: 30px 10px;
-}
-.high_left li.active {
+.high_left li.active a{
+    padding: 0 10px;
+    padding-bottom:20px;
     background-color: white;
     color: black;
+}
+
+footer{
+    background-color: gray;
+    height:150px;
+}
+footer img{
+    border: 3px solid black;
 }
