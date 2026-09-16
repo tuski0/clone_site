@@ -1,0 +1,39 @@
+a{
+    color: inherit;
+    text-decoration: none;
+}
+body{
+    margin: 0px;
+}
+li {
+    list-style-type: none;
+    white-space: nowrap;
+}
+
+.high_ul {
+    color:white;
+    font-weight: 200;
+    min-width: 1200px;
+    padding-left: 10px;
+    padding-right: 30px;
+    background-color: #59621D;
+    display: flex;
+    justify-content: space-between; 
+}
+.high_left{
+    min-width: 100px;
+    display: flex;
+    gap: 50px;
+}
+.high_right{
+    min-width: 100px;
+    display: flex;
+    gap: 50px;
+    
+}
+.low_category {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}

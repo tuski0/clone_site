@@ -1,0 +1,1322 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>상하농원 | HTML · CSS 클론</title>
+    <meta
+      name="description"
+      content="상하농원 메인 페이지 HTML과 CSS 클론코딩 학습용 작업물"
+    />
+    <link rel="icon" href="assets/favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="top">
+    <a class="skip" href="#events">본문 바로가기</a>
+    <header>
+      <div class="header-inner">
+        <a class="logo" href="#top"
+          ><img src="assets/logo5.svg" alt="상하농원"
+        /></a>
+        <div class="utilities">
+          <a
+            class=""
+            href="https://www.sanghafarm.co.kr"
+            target="_blank"
+            rel="noopener"
+            >로그인</a
+          ><i></i
+          ><a
+            class=""
+            href="https://www.sanghafarm.co.kr"
+            target="_blank"
+            rel="noopener"
+            >회원가입</a
+          ><i></i
+          ><a
+            class=""
+            href="https://www.sanghafarm.co.kr/order/cart.jsp"
+            target="_blank"
+            rel="noopener"
+            >장바구니 <b>0</b></a
+          >
+        </div>
+        <nav aria-label="메인 메뉴">
+          <a
+            class=""
+            href="https://www.sanghafarm.co.kr/brand/index.jsp"
+            target="_blank"
+            rel="noopener"
+            >상하농원</a
+          ><a
+            class=""
+            href="https://www.sanghafarm.co.kr/brand/play/booking.jsp"
+            target="_blank"
+            rel="noopener"
+            >체험예약</a
+          ><a
+            class=""
+            href="https://www.sanghafarm.co.kr/hotel/index.jsp"
+            target="_blank"
+            rel="noopener"
+            >객실예약</a
+          ><a
+            class=""
+            href="https://www.sanghafarm.co.kr/main.jsp"
+            target="_blank"
+            rel="noopener"
+            >제품구매</a
+          ><a
+            class="calendar-link"
+            href="https://www.sanghafarm.co.kr/brand/bbs/news/view.jsp?seq=500"
+            target="_blank"
+            rel="noopener"
+            ><img src="assets/ico_calendar.svg" alt="" /> 연간캘린더</a
+          >
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="hero" aria-label="상하농원의 풍경">
+        <input
+          class="state hero-radio"
+          type="radio"
+          name="hero"
+          id="hero-0"
+          aria-label="메인 배너 1"
+          checked
+        /><input
+          class="state hero-radio"
+          type="radio"
+          name="hero"
+          id="hero-1"
+          aria-label="메인 배너 2"
+        /><input
+          class="state hero-radio"
+          type="radio"
+          name="hero"
+          id="hero-2"
+          aria-label="메인 배너 3"
+        /><input
+          class="state hero-radio"
+          type="radio"
+          name="hero"
+          id="hero-3"
+          aria-label="메인 배너 4"
+        /><input
+          class="state hero-radio"
+          type="radio"
+          name="hero"
+          id="hero-4"
+          aria-label="메인 배너 5"
+        />
+        <div class="slides">
+          <a
+            class="slide slide-0"
+            href="https://www.sanghafarm.co.kr/hotel/index.jsp"
+            target="_blank"
+            rel="noopener"
+            ><img
+              src="assets/visual13_pc.jpg"
+              alt="파머스빌리지 수영장"
+              fetchpriority="high" /></a
+          ><a
+            class="slide slide-1"
+            href="https://www.sanghafarm.co.kr/brand/index.jsp"
+            target="_blank"
+            rel="noopener"
+            ><img src="assets/visual10_pc.jpg" alt="상하농원" /></a
+          ><a
+            class="slide slide-2"
+            href="https://www.sanghafarm.co.kr/hotel/index.jsp"
+            target="_blank"
+            rel="noopener"
+            ><img src="assets/visual14_pc.jpg" alt="파머스빌리지" /></a
+          ><a
+            class="slide slide-3"
+            href="https://www.sanghafarm.co.kr/brand/index.jsp"
+            target="_blank"
+            rel="noopener"
+            ><img src="assets/visual15_pc.jpg" alt="상하수목원" /></a
+          ><a
+            class="slide slide-4"
+            href="https://www.sanghafarm.co.kr/brand/index.jsp"
+            target="_blank"
+            rel="noopener"
+            ><img src="assets/visual7_pc.jpg" alt="자연 속의 상하농원"
+          /></a>
+        </div>
+        <div class="dots">
+          <label for="hero-0" aria-label="배너 1"
+            ><span class="sr-only">배너 1</span></label
+          ><label for="hero-1" aria-label="배너 2"
+            ><span class="sr-only">배너 2</span></label
+          ><label for="hero-2" aria-label="배너 3"
+            ><span class="sr-only">배너 3</span></label
+          ><label for="hero-3" aria-label="배너 4"
+            ><span class="sr-only">배너 4</span></label
+          ><label for="hero-4" aria-label="배너 5"
+            ><span class="sr-only">배너 5</span></label
+          >
+        </div>
+        <div class="booking">
+          <span class="hotel-type">HOTEL ⌄</span
+          ><span class="hotel-title">호텔파머스빌리지</span
+          ><a
+            class="village"
+            href="https://www.sanghafarm.co.kr/hotel/room/index.jsp"
+            target="_blank"
+            rel="noopener"
+            >빌리지 정보</a
+          ><a
+            class="search"
+            href="https://www.sanghafarm.co.kr/hotel/index.jsp"
+            target="_blank"
+            rel="noopener"
+            >객실검색</a
+          >
+        </div>
+      </section>
+      <section id="events" class="events">
+        <h2 class="section-title">
+          <span aria-hidden="true">EVENTS</span
+          ><b>오직 상하농원에서만 만날 수 있는 특별한 여정</b>
+        </h2>
+        <div class="event-accordion">
+          <input
+            class="state event-radio"
+            type="radio"
+            name="event"
+            id="event-0"
+            aria-label="상하농원 소시지 축제"
+            checked
+          />
+          <article class="event event-0">
+            <label for="event-0" class="event-picture"
+              ><img
+                src="assets/thumb_event1_pc.jpg"
+                alt="상하농원 소시지 축제"
+              /><span>상하농원 소시지 축제</span></label
+            >
+            <div class="event-copy">
+              <h3>상하농원 소시지 축제</h3>
+              <p>
+                풍성한 맛과 다채로운 즐거움이 한자리에<br />맛있는 10월의 추억을
+                상하농원에서 만나보세요.
+              </p>
+              <a
+                class="green-button"
+                href="https://www.sanghafarm.co.kr/brand/bbs/news/view.jsp?seq=500"
+                target="_blank"
+                rel="noopener"
+                >더 알아보기 ↗</a
+              >
+            </div>
+          </article>
+          <input
+            class="state event-radio"
+            type="radio"
+            name="event"
+            id="event-1"
+            aria-label="상하수목원"
+          />
+          <article class="event event-1">
+            <label for="event-1" class="event-picture"
+              ><img src="assets/thumb_event3_pc.jpg" alt="상하수목원" /><span
+                >상하수목원</span
+              ></label
+            >
+            <div class="event-copy">
+              <h3>상하수목원</h3>
+              <p>
+                사람도 자연도 쉬어가는 곳<br />사계절 아름다운 산책을
+                만나보세요.
+              </p>
+              <a
+                class="green-button"
+                href="https://www.youtube.com/watch?v=lCz0wWp7pyk"
+                target="_blank"
+                rel="noopener"
+                >더 알아보기 ↗</a
+              >
+            </div>
+          </article>
+          <input
+            class="state event-radio"
+            type="radio"
+            name="event"
+            id="event-2"
+            aria-label="상하농원 진유정란"
+          />
+          <article class="event event-2">
+            <label for="event-2" class="event-picture"
+              ><img
+                src="assets/thumb_event2_pc.jpg"
+                alt="상하농원 진유정란"
+              /><span>상하농원 진유정란</span></label
+            >
+            <div class="event-copy">
+              <h3>상하농원 진유정란</h3>
+              <p>
+                더 진한 노른자, 더 진한 고소함, 더 진한 영양<br />0.1%의 가치,
+                상하농원 진(眞)유정란
+              </p>
+              <a
+                class="green-button"
+                href="https://www.sanghafarm.co.kr/main.jsp"
+                target="_blank"
+                rel="noopener"
+                >더 알아보기 ↗</a
+              >
+            </div>
+          </article>
+          <input
+            class="state event-radio"
+            type="radio"
+            name="event"
+            id="event-3"
+            aria-label="연간 캘린더"
+          />
+          <article class="event event-3">
+            <label for="event-3" class="event-picture"
+              ><img src="assets/thumb_event4_pc.jpg" alt="연간 캘린더" /><span
+                >연간 캘린더</span
+              ></label
+            >
+            <div class="event-copy">
+              <h3>연간 캘린더</h3>
+              <p>
+                더 신나고 풍성해진 상하농원<br />농사체험과 이벤트를 한 눈에
+                확인하세요.
+              </p>
+              <a
+                class="green-button"
+                href="https://www.sanghafarm.co.kr/brand/index.jsp"
+                target="_blank"
+                rel="noopener"
+                >더 알아보기 ↗</a
+              >
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="services content-width">
+        <h2>기대 그 이상의 서비스! 그리고 잊지 못할 경험</h2>
+        <div class="service-grid">
+          <a
+            class="service-card"
+            href="https://www.sanghafarm.co.kr/brand/food/store2.jsp"
+            target="_blank"
+            rel="noopener"
+            ><img
+              src="assets/thumb_service5_pc.jpg"
+              alt="농원식당"
+              loading="lazy"
+            />
+            <div class="service-copy">
+              <h3>농원식당</h3>
+              <p>
+                텃밭에서 농부가 직접 키운 식재료와<br />공방에서 수제로 만든
+                다양한 재료로 별미를 맛보세요
+              </p>
+              <span class="green-button">더 알아보기 ↗</span>
+            </div></a
+          ><a
+            class="service-card"
+            href="https://youtu.be/lCz0wWp7pyk"
+            target="_blank"
+            rel="noopener"
+            ><img
+              src="assets/thumb_service1_pc.jpg"
+              alt="상하수목원"
+              loading="lazy"
+            />
+            <div class="service-copy">
+              <h3>상하수목원</h3>
+              <p>
+                팽나무의 청량함 속 기분좋은 산책<br />새롭게 선보이는 상하의
+                숲에서 첫 발자국을 남겨보세요
+              </p>
+              <span class="green-button">더 알아보기 ↗</span>
+            </div></a
+          ><a
+            class="service-card"
+            href="https://www.sanghafarm.co.kr/hotel/wedding/wedding.jsp"
+            target="_blank"
+            rel="noopener"
+            ><img
+              src="assets/thumb_service2_pc.jpg"
+              alt="웨딩&amp;연회"
+              loading="lazy"
+            />
+            <div class="service-copy">
+              <h3>웨딩&연회</h3>
+              <p>
+                아름답게 새 출발하는 결혼식, 가족의 특별한 모임<br />소중한
+                순간을 함께 하겠습니다
+              </p>
+              <span class="green-button">더 알아보기 ↗</span>
+            </div></a
+          ><a
+            class="service-card"
+            href="https://www.sanghafarm.co.kr/hotel/index.jsp"
+            target="_blank"
+            rel="noopener"
+            ><img
+              src="assets/thumb_service3_pc.jpg"
+              alt="세미나&amp;워크숍"
+              loading="lazy"
+            />
+            <div class="service-copy">
+              <h3>세미나&워크숍</h3>
+              <p>
+                답답한 도심을 벗어나 자연속에서 편안한 세미나를<br />진행할 수
+                있도록 정성을 다해 준비하겠습니다
+              </p>
+              <span class="green-button">더 알아보기 ↗</span>
+            </div></a
+          >
+        </div>
+      </section>
+      <section class="farmers content-width">
+        <h2 class="section-title">
+          <span aria-hidden="true">Farmers</span><b>정성과 건강함을 그대로</b>
+        </h2>
+        <input
+          type="radio"
+          class="state product-radio"
+          name="products"
+          id="products-0"
+          aria-label="상하 FESTA"
+          checked
+        /><input
+          type="radio"
+          class="state product-radio"
+          name="products"
+          id="products-1"
+          aria-label="계란"
+        /><input
+          type="radio"
+          class="state product-radio"
+          name="products"
+          id="products-2"
+          aria-label="햄공방"
+        /><input
+          type="radio"
+          class="state product-radio"
+          name="products"
+          id="products-3"
+          aria-label="발효공방"
+        /><input
+          type="radio"
+          class="state product-radio"
+          name="products"
+          id="products-4"
+          aria-label="카스텔라공방"
+        /><input
+          type="radio"
+          class="state product-radio"
+          name="products"
+          id="products-5"
+          aria-label="과일공방"
+        /><input
+          type="radio"
+          class="state product-radio"
+          name="products"
+          id="products-6"
+          aria-label="참기름공방"
+        /><input
+          type="radio"
+          class="state product-radio"
+          name="products"
+          id="products-7"
+          aria-label="치즈공방"
+        />
+        <div class="product-tabs">
+          <label for="products-0">상하 FESTA</label
+          ><label for="products-1">계란</label
+          ><label for="products-2">햄공방</label
+          ><label for="products-3">발효공방</label
+          ><label for="products-4">카스텔라공방</label
+          ><label for="products-5">과일공방</label
+          ><label for="products-6">참기름공방</label
+          ><label for="products-7">치즈공방</label>
+        </div>
+        <div class="product-panels">
+          <div class="product-panel panel-0" aria-label="상하 FESTA">
+            <a
+              class="more"
+              href="https://www.sanghafarm.co.kr/main.jsp"
+              target="_blank"
+              rel="noopener"
+              >더보기 +</a
+            >
+            <div class="product-grid">
+              <a
+                class="product-card"
+                href="https://www.sanghafarm.co.kr/main.jsp"
+                target="_blank"
+                rel="noopener"
+                ><div class="product-photo">
+                  <img
+                    src="assets/A0011626_2026062423404325353.jpg"
+                    alt="[2026 추석] 10주년 숙성된장 480g"
+                    loading="lazy"
+                  /><span class="cart-icon"
+                    ><img src="assets/btn_cart2.svg" alt="상품 보기"
+                  /></span>
+                </div>
+                <h3>[2026 추석] 10주년 숙성된장 480g</h3>
+                <p>10년의 시간, 자연의 깊은 맛</p>
+                <strong>21,700<small>원</small></strong></a
+              ><a
+                class="product-card"
+                href="https://www.sanghafarm.co.kr/main.jsp"
+                target="_blank"
+                rel="noopener"
+                ><div class="product-photo">
+                  <img
+                    src="assets/D0010814_2026072717443080329.jpg"
+                    alt="[2026 추석] 상하농원 고창 명품 멜론 세트 (2입/4입)"
+                    loading="lazy"
+                  /><span class="cart-icon"
+                    ><img src="assets/btn_cart2.svg" alt="상품 보기"
+                  /></span>
+                </div>
+                <h3>[2026 추석] 상하농원 고창 명품 멜론 세트 (2입/4입)</h3>
+                <p>황토밭에서 키워 맛과 향이 으뜸인</p>
+                <strong>50,000<small>원</small></strong></a
+              ><a
+                class="product-card"
+                href="https://www.sanghafarm.co.kr/main.jsp"
+                target="_blank"
+                rel="noopener"
+                ><div class="product-photo">
+                  <img
+                    src="assets/D0011280_2026072717305580055.jpg"
+                    alt="[2026 추석] 상하농원 햄공방 시그니처 세트"
+                    loading="lazy"
+                  /><span class="cart-icon"
+                    ><img src="assets/btn_cart2.svg" alt="상품 보기"
+                  /></span>
+                </div>
+                <h3>[2026 추석] 상하농원 햄공방 시그니처 세트</h3>
+                <p>신선한 육즙이 그대로, 햄공방 인기제품</p>
+                <strong>78,000<small>원</small></strong></a
+              ><a
+                class="product-card"
+                href="https://www.sanghafarm.co.kr/main.jsp"
+                target="_blank"
+                rel="noopener"
+                ><div class="product-photo">
+                  <img
+                    src="assets/D0011274_2026072717322580085.jpg"
+                    alt="[2026 추석] 상하농원 간장게장 세트 (2입/3입/4입)"
+                    loading="lazy"
+                  /><span class="cart-icon"
+                    ><img src="assets/btn_cart2.svg" alt="상품 보기"
+                  /></span>
+                </div>
+                <h3>[2026 추석] 상하농원 간장게장 세트 (2입/3입/4입)</h3>
+                <p>알이 꽉 찬 봄철 꽃게</p>
+                <strong>99,000<small>원</small></strong></a
+              >
+            </div>
+          </div>
+          <div class="product-panel panel-1" aria-label="계란">
+            <a
+              class="more"
+              href="https://www.sanghafarm.co.kr/main.jsp"
+              target="_blank"
+              rel="noopener"
+              >더보기 +</a
+            >
+            <div class="product-grid">
+              <a
+                class="product-card"
+                href="https://www.sanghafarm.co.kr/main.jsp"
+                target="_blank"
+                rel="noopener"
+                ><div class="product-photo">
+                  <img
+                    src="assets/A0006858_2026090818271107687.jpg"
+                    alt="상하농원 동물복지 유정란(10구)"
+                    loading="lazy"
+                  /><span class="cart-icon"
+                    ><img src="assets/btn_cart2.svg" alt="상품 보기"
+                  /></span>
+                </div>
+                <h3>상하농원 동물복지 유정란(10구)</h3>
+                <p>진한 노른자에 담은 건강함</p>
+                <strong>9,480<small>원</small></strong></a
+              ><a
+                class="product-card"
+                href="https://www.sanghafarm.co.kr/main.jsp"
+                target="_blank"
+                rel="noopener"
+                ><div class="product-photo">
+                  <img
+                    src="assets/A0006807_2025090210355444669.jpg"
+                    alt="상하농원 동물복지 유정란(15구)*2팩"
+                    loading="lazy"
+                  /><span class="cart-icon"
+                    ><img src="assets/btn_cart2.svg" alt="상품 보기"
+                  /></span>
+                </div>
+                <h3>상하농원 동물복지 유정란(15구)*2팩</h3>
+                <p>진한 노른자에 담은 건강함</p>
+                <strong>17,000<small>원</small></strong></a
+              ><a
+                class="product-card"
+                href="https://www.sanghafarm.co.kr/main.jsp"
+                target="_blank"
+                rel="noopener"
+                ><div class="product-photo">
+                  <img
+                    src="assets/A0004987_2025090210410144890.jpg"
+                    alt="상하농원 무항생제 1+등급란 (15구)"
+                    loading="lazy"
+                  /><span class="cart-icon"
+                    ><img src="assets/btn_cart2.svg" alt="상품 보기"
+                  /></span>
+                </div>
+                <h3>상하농원 무항생제 1+등급란 (15구)</h3>
+                <p>매일매일 어미닭이 낳은 영양란</p>
+                <strong>9,980<small>원</small></strong></a
+              ><a
+                class="product-card"
+                href="https://www.sanghafarm.co.kr/main.jsp"
+                target="_blank"
+                rel="noopener"
+                ><div class="product-photo">
+                  <img
+                    src="assets/A0008352_2024030611555784069.jpg"
+                    alt="상하농원 행복을 담은 동물복지 구운란(30구)"
+                    loading="lazy"
+                  /><span class="cart-icon"
+                    ><img src="assets/btn_cart2.svg" alt="상품 보기"
+                  /></span>
+                </div>
+                <h3>상하농원 행복을 담은 동물복지 구운란(30구)</h3>
+                <p>매일 즐겨도 좋은 영양 간식</p>
+                <strong>19,800<small>원</small></strong></a
+              >
+            </div>
+          </div>
+          <div class="product-panel panel-2" aria-label="햄공방">
+            <a
+              class="more"
+              href="https://www.sanghafarm.co.kr/main.jsp"
+              target="_blank"
+              rel="noopener"
+              >더보기 +</a
+            >
+            <div class="product-grid">
+              <a
+                class="product-card"
+                href="https://www.sanghafarm.co.kr/main.jsp"
+                target="_blank"
+                rel="noopener"
+                ><div class="product-photo">
+                  <img
+                    src="assets/A0010424_2025062313535208567.jpg"
+                    alt="상하농원 브랏부어스트 120g"
+                    loading="lazy"
+                  /><span class="cart-icon"
+                    ><img src="assets/btn_cart2.svg" alt="상품 보기"
+                  /></span>
+                </div>
+                <h3>상하농원 브랏부어스트 120g</h3>
+                <p>너도밤나무 훈연 수제 소시지</p>
+                <strong>6,400<small>원</small></strong></a
+              ><a
+                class="product-card"
+                href="https://www.sanghafarm.co.kr/main.jsp"
+                target="_blank"
+                rel="noopener"
+                ><div class="product-photo">
+                  <img
+                    src="assets/A0010426_2025062313475408378.jpg"
+                    alt="상하농원 프랑크프루터 180g"
+                    loading="lazy"
+                  /><span class="cart-icon"
+                    ><img src="assets/btn_cart2.svg" alt="상품 보기"
+                  /></span>
+                </div>
+                <h3>상하농원 프랑크프루터 180g</h3>
+                <p>한 입 가득 퍼지는 육즙</p>
+                <strong>7,400<small>원</small></strong></a
+              ><a
+                class="product-card"
+                href="https://www.sanghafarm.co.kr/main.jsp"
+                target="_blank"
+                rel="noopener"
+                ><div class="product-photo">
+                  <img
+                    src="assets/A0010429_2025062313523508523.jpg"
+                    alt="상하농원 바이스부어스트 120g"
+                    loading="lazy"
+                  /><span class="cart-icon"
+                    ><img src="assets/btn_cart2.svg" alt="상품 보기"
+                  /></span>
+                </div>
+                <h3>상하농원 바이스부어스트 120g</h3>
+                <p>부드럽고 담백한 맛</p>
+                <strong>6,400<small>원</small></strong></a
+              ><a
+                class="product-card"
+                href="https://www.sanghafarm.co.kr/main.jsp"
+                target="_blank"
+                rel="noopener"
+                ><div class="product-photo">
+                  <img
+                    src="assets/A0010432_2025062313565308629.jpg"
+                    alt="상하농원 비엔나 120g"
+                    loading="lazy"
+                  /><span class="cart-icon"
+                    ><img src="assets/btn_cart2.svg" alt="상품 보기"
+                  /></span>
+                </div>
+                <h3>상하농원 비엔나 120g</h3>
+                <p>톡터지는 식감의 한 입 쏙 소시지</p>
+                <strong>6,900<small>원</small></strong></a
+              >
+            </div>
+          </div>
+          <div class="product-panel panel-3" aria-label="발효공방">
+            <a
+              class="more"
+              href="https://www.sanghafarm.co.kr/main.jsp"
+              target="_blank"
+              rel="noopener"
+              >더보기 +</a
+            >
+            <div class="product-grid">
+              <a
+                class="product-card"
+                href="https://www.sanghafarm.co.kr/main.jsp"
+                target="_blank"
+                rel="noopener"
+                ><div class="product-photo">
+                  <img
+                    src="assets/D0005207_2024101811260971269.jpg"
+                    alt="상하농원 포기김치 3kg/5kg"
+                    loading="lazy"
+                  /><span class="cart-icon"
+                    ><img src="assets/btn_cart2.svg" alt="상품 보기"
+                  /></span>
+                </div>
+                <h3>상하농원 포기김치 3kg/5kg</h3>
+                <p>엄선한 원재료로 건강하게 담은</p>
+                <strong>39,000<small>원</small></strong></a
+              ><a
+                class="product-card"
+                href="https://www.sanghafarm.co.kr/main.jsp"
+                target="_blank"
+                rel="noopener"
+                ><div class="product-photo">
+                  <img
+                    src="assets/D0010030_2024101721470259011.jpg"
+                    alt="상하농원 총각김치 2kg/5kg"
+                    loading="lazy"
+                  /><span class="cart-icon"
+                    ><img src="assets/btn_cart2.svg" alt="상품 보기"
+                  /></span>
+                </div>
+                <h3>상하농원 총각김치 2kg/5kg</h3>
+                <p>시원하고 개운한 뒷맛</p>
+                <strong>24,800<small>원</small></strong></a
+              ><a
+                class="product-card"
+                href="https://www.sanghafarm.co.kr/main.jsp"
+                target="_blank"
+                rel="noopener"
+                ><div class="product-photo">
+                  <img
+                    src="assets/A0011619_2026062314511975663.jpg"
+                    alt="상하농원 열무김치 2kg"
+                    loading="lazy"
+                  /><span class="cart-icon"
+                    ><img src="assets/btn_cart2.svg" alt="상품 보기"
+                  /></span>
+                </div>
+                <h3>상하농원 열무김치 2kg</h3>
+                <p>복분자를 넣어 아삭하고 시원한</p>
+                <strong>26,500<small>원</small></strong></a
+              ><a
+                class="product-card"
+                href="https://www.sanghafarm.co.kr/main.jsp"
+                target="_blank"
+                rel="noopener"
+                ><div class="product-photo">
+                  <img
+                    src="assets/A0010532_2025041710402546270.jpg"
+                    alt="상하농원 간장게장 700g"
+                    loading="lazy"
+                  /><span class="cart-icon"
+                    ><img src="assets/btn_cart2.svg" alt="상품 보기"
+                  /></span>
+                </div>
+                <h3>상하농원 간장게장 700g</h3>
+                <p>발효공방 비법소스로 만든</p>
+                <strong>49,500<small>원</small></strong></a
+              >
+            </div>
+          </div>
+          <div class="product-panel panel-4" aria-label="카스텔라공방">
+            <a
+              class="more"
+              href="https://www.sanghafarm.co.kr/main.jsp"
+              target="_blank"
+              rel="noopener"
+              >더보기 +</a
+            >
+            <div class="product-grid">
+              <a
+                class="product-card"
+                href="https://www.sanghafarm.co.kr/main.jsp"
+                target="_blank"
+                rel="noopener"
+                ><div class="product-photo">
+                  <img
+                    src="assets/A0011666_2026071013202046986.jpg"
+                    alt="상하농원 에그촉촉 카스텔라 제주한라봉 250g"
+                    loading="lazy"
+                  /><span class="cart-icon"
+                    ><img src="assets/btn_cart2.svg" alt="상품 보기"
+                  /></span>
+                </div>
+                <h3>상하농원 에그촉촉 카스텔라 제주한라봉 250g</h3>
+                <p>시작부터 다른 카스텔라</p>
+                <strong>13,000<small>원</small></strong></a
+              ><a
+                class="product-card"
+                href="https://www.sanghafarm.co.kr/main.jsp"
+                target="_blank"
+                rel="noopener"
+                ><div class="product-photo">
+                  <img
+                    src="assets/A0009245_2026031017125739134.jpg"
+                    alt="상하농원 에그촉촉 카스텔라 250g"
+                    loading="lazy"
+                  /><span class="cart-icon"
+                    ><img src="assets/btn_cart2.svg" alt="상품 보기"
+                  /></span>
+                </div>
+                <h3>상하농원 에그촉촉 카스텔라 250g</h3>
+                <p>상하농원 계란을 듬뿍 넣은</p>
+                <strong>13,000<small>원</small></strong></a
+              ><a
+                class="product-card"
+                href="https://www.sanghafarm.co.kr/main.jsp"
+                target="_blank"
+                rel="noopener"
+                ><div class="product-photo">
+                  <img
+                    src="assets/A0010523_2026031017210339401.jpg"
+                    alt="상하농원 에그촉촉 카스텔라 제주말차 250g"
+                    loading="lazy"
+                  /><span class="cart-icon"
+                    ><img src="assets/btn_cart2.svg" alt="상품 보기"
+                  /></span>
+                </div>
+                <h3>상하농원 에그촉촉 카스텔라 제주말차 250g</h3>
+                <p>제주산 말차의 진한 풍미</p>
+                <strong>13,000<small>원</small></strong></a
+              ><a
+                class="product-card"
+                href="https://www.sanghafarm.co.kr/main.jsp"
+                target="_blank"
+                rel="noopener"
+                ><div class="product-photo">
+                  <img
+                    src="assets/A0010363_2026031017174439305.jpg"
+                    alt="상하농원 에그촉촉 카스텔라 125g"
+                    loading="lazy"
+                  /><span class="cart-icon"
+                    ><img src="assets/btn_cart2.svg" alt="상품 보기"
+                  /></span>
+                </div>
+                <h3>상하농원 에그촉촉 카스텔라 125g</h3>
+                <p>촉촉한 수제 카스텔라</p>
+                <strong>6,500<small>원</small></strong></a
+              >
+            </div>
+          </div>
+          <div class="product-panel panel-5" aria-label="과일공방">
+            <a
+              class="more"
+              href="https://www.sanghafarm.co.kr/main.jsp"
+              target="_blank"
+              rel="noopener"
+              >더보기 +</a
+            >
+            <div class="product-grid">
+              <a
+                class="product-card"
+                href="https://www.sanghafarm.co.kr/main.jsp"
+                target="_blank"
+                rel="noopener"
+                ><div class="product-photo">
+                  <img
+                    src="assets/A0010906_2026012812015513797.jpg"
+                    alt="상하농원 골든 땅콩버터 크런치 220g"
+                    loading="lazy"
+                  /><span class="cart-icon"
+                    ><img src="assets/btn_cart2.svg" alt="상품 보기"
+                  /></span>
+                </div>
+                <h3>상하농원 골든 땅콩버터 크런치 220g</h3>
+                <p>100% 고창산 알땅콩</p>
+                <strong>19,800<small>원</small></strong></a
+              ><a
+                class="product-card"
+                href="https://www.sanghafarm.co.kr/main.jsp"
+                target="_blank"
+                rel="noopener"
+                ><div class="product-photo">
+                  <img
+                    src="assets/A0010646_2026020615012483091.jpg"
+                    alt="상하농원 골든 땅콩버터 스무스 220g"
+                    loading="lazy"
+                  /><span class="cart-icon"
+                    ><img src="assets/btn_cart2.svg" alt="상품 보기"
+                  /></span>
+                </div>
+                <h3>상하농원 골든 땅콩버터 스무스 220g</h3>
+                <p>고소한 무가당 땅콩버터</p>
+                <strong>19,800<small>원</small></strong></a
+              ><a
+                class="product-card"
+                href="https://www.sanghafarm.co.kr/main.jsp"
+                target="_blank"
+                rel="noopener"
+                ><div class="product-photo">
+                  <img
+                    src="assets/A0010437_2025061017131584142.jpg"
+                    alt="[이달의 잼] 상하농원 딸기잼 280g"
+                    loading="lazy"
+                  /><span class="cart-icon"
+                    ><img src="assets/btn_cart2.svg" alt="상품 보기"
+                  /></span>
+                </div>
+                <h3>[이달의 잼] 상하농원 딸기잼 280g</h3>
+                <p>스마트팜 딸기의 맛과 향</p>
+                <strong>15,000<small>원</small></strong></a
+              ><a
+                class="product-card"
+                href="https://www.sanghafarm.co.kr/main.jsp"
+                target="_blank"
+                rel="noopener"
+                ><div class="product-photo">
+                  <img
+                    src="assets/A0010580_2025043012122518341.jpg"
+                    alt="상하농원 블루베리잼 280g"
+                    loading="lazy"
+                  /><span class="cart-icon"
+                    ><img src="assets/btn_cart2.svg" alt="상품 보기"
+                  /></span>
+                </div>
+                <h3>상하농원 블루베리잼 280g</h3>
+                <p>수제의 정성을 담은 잼</p>
+                <strong>15,000<small>원</small></strong></a
+              >
+            </div>
+          </div>
+          <div class="product-panel panel-6" aria-label="참기름공방">
+            <a
+              class="more"
+              href="https://www.sanghafarm.co.kr/main.jsp"
+              target="_blank"
+              rel="noopener"
+              >더보기 +</a
+            >
+            <div class="product-grid">
+              <a
+                class="product-card"
+                href="https://www.sanghafarm.co.kr/main.jsp"
+                target="_blank"
+                rel="noopener"
+                ><div class="product-photo">
+                  <img
+                    src="assets/A0011524_2026052814062441561.jpg"
+                    alt="상하농원 고창 들기름 180ml"
+                    loading="lazy"
+                  /><span class="cart-icon"
+                    ><img src="assets/btn_cart2.svg" alt="상품 보기"
+                  /></span>
+                </div>
+                <h3>상하농원 고창 들기름 180ml</h3>
+                <p>저온 압착 착유로 풍미를 살린</p>
+                <strong>29,000<small>원</small></strong></a
+              ><a
+                class="product-card"
+                href="https://www.sanghafarm.co.kr/main.jsp"
+                target="_blank"
+                rel="noopener"
+                ><div class="product-photo">
+                  <img
+                    src="assets/A0011523_2026052814001841462.jpg"
+                    alt="상하농원 고창 참기름 180ml"
+                    loading="lazy"
+                  /><span class="cart-icon"
+                    ><img src="assets/btn_cart2.svg" alt="상품 보기"
+                  /></span>
+                </div>
+                <h3>상하농원 고창 참기름 180ml</h3>
+                <p>참깨 본연의 맛</p>
+                <strong>36,000<small>원</small></strong></a
+              ><a
+                class="product-card"
+                href="https://www.sanghafarm.co.kr/main.jsp"
+                target="_blank"
+                rel="noopener"
+                ><div class="product-photo">
+                  <img
+                    src="assets/A0007087_2026030917403507664.jpg"
+                    alt="상하농원 고창 볶음참깨 200g"
+                    loading="lazy"
+                  /><span class="cart-icon"
+                    ><img src="assets/btn_cart2.svg" alt="상품 보기"
+                  /></span>
+                </div>
+                <h3>상하농원 고창 볶음참깨 200g</h3>
+                <p>자연 그대로의 맛과 향</p>
+                <strong>18,000<small>원</small></strong></a
+              >
+            </div>
+          </div>
+          <div class="product-panel panel-7" aria-label="치즈공방">
+            <a
+              class="more"
+              href="https://www.sanghafarm.co.kr/main.jsp"
+              target="_blank"
+              rel="noopener"
+              >더보기 +</a
+            >
+            <div class="product-grid">
+              <a
+                class="product-card"
+                href="https://www.sanghafarm.co.kr/main.jsp"
+                target="_blank"
+                rel="noopener"
+                ><div class="product-photo">
+                  <img
+                    src="assets/A0004680_2025011715061356810.jpg"
+                    alt="상하농원 수제 화이트체다 치즈 100g"
+                    loading="lazy"
+                  /><span class="cart-icon"
+                    ><img src="assets/btn_cart2.svg" alt="상품 보기"
+                  /></span>
+                </div>
+                <h3>상하농원 수제 화이트체다 치즈 100g</h3>
+                <p>진한 숙성치즈의 풍미</p>
+                <strong>8,800<small>원</small></strong></a
+              ><a
+                class="product-card"
+                href="https://www.sanghafarm.co.kr/main.jsp"
+                target="_blank"
+                rel="noopener"
+                ><div class="product-photo">
+                  <img
+                    src="assets/A0004682_2025011715065156831.jpg"
+                    alt="상하농원 수제 고다 치즈 100g"
+                    loading="lazy"
+                  /><span class="cart-icon"
+                    ><img src="assets/btn_cart2.svg" alt="상품 보기"
+                  /></span>
+                </div>
+                <h3>상하농원 수제 고다 치즈 100g</h3>
+                <p>부드러운 풍미의 숙성치즈</p>
+                <strong>8,800<small>원</small></strong></a
+              ><a
+                class="product-card"
+                href="https://www.sanghafarm.co.kr/main.jsp"
+                target="_blank"
+                rel="noopener"
+                ><div class="product-photo">
+                  <img
+                    src="assets/A0004675_2025011715063256825.jpg"
+                    alt="상하농원 수제 그릴드 치즈 125g"
+                    loading="lazy"
+                  /><span class="cart-icon"
+                    ><img src="assets/btn_cart2.svg" alt="상품 보기"
+                  /></span>
+                </div>
+                <h3>상하농원 수제 그릴드 치즈 125g</h3>
+                <p>살짝 구워 더 고소하고 부드럽게</p>
+                <strong>9,900<small>원</small></strong></a
+              ><a
+                class="product-card"
+                href="https://www.sanghafarm.co.kr/main.jsp"
+                target="_blank"
+                rel="noopener"
+                ><div class="product-photo">
+                  <img
+                    src="assets/A0004679_2025011715070956836.jpg"
+                    alt="상하농원 수제 스트링 치즈 50g"
+                    loading="lazy"
+                  /><span class="cart-icon"
+                    ><img src="assets/btn_cart2.svg" alt="상품 보기"
+                  /></span>
+                </div>
+                <h3>상하농원 수제 스트링 치즈 50g</h3>
+                <p>치즈의 결과 쫄깃한 식감</p>
+                <strong>4,100<small>원</small></strong></a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="banner content-width">
+        <a
+          class=""
+          href="https://www.sanghafarm.co.kr/brand/index.jsp"
+          target="_blank"
+          rel="noopener"
+          ><img src="assets/banner_pc.jpg" alt="상하농원 이야기" loading="lazy"
+        /></a>
+      </div>
+      <section class="workshops content-width" aria-label="상하농원 공방">
+        <input
+          class="state workshop-radio"
+          type="radio"
+          name="workshop"
+          id="workshop-0"
+          aria-label="햄공방"
+          checked
+        /><input
+          class="state workshop-radio"
+          type="radio"
+          name="workshop"
+          id="workshop-1"
+          aria-label="과일공방"
+        /><input
+          class="state workshop-radio"
+          type="radio"
+          name="workshop"
+          id="workshop-2"
+          aria-label="카스텔라공방"
+        /><input
+          class="state workshop-radio"
+          type="radio"
+          name="workshop"
+          id="workshop-3"
+          aria-label="발효공방"
+        /><input
+          class="state workshop-radio"
+          type="radio"
+          name="workshop"
+          id="workshop-4"
+          aria-label="참기름공방"
+        />
+        <div class="workshop-panels">
+          <article class="workshop-panel workshop-0">
+            <img src="assets/thumb_program1.jpg" alt="햄공방" loading="lazy" />
+            <div>
+              <span>01</span>
+              <h2>햄공방</h2>
+              <p>깨끗한 원재료 그대로<br />정성을 담은 상하농원 햄공방</p>
+              <a
+                class="outline-button"
+                href="https://www.sanghafarm.co.kr/brand/index.jsp"
+                target="_blank"
+                rel="noopener"
+                >더보기 ↗</a
+              >
+            </div>
+          </article>
+          <article class="workshop-panel workshop-1">
+            <img
+              src="assets/thumb_program2.jpg"
+              alt="과일공방"
+              loading="lazy"
+            />
+            <div>
+              <span>02</span>
+              <h2>과일공방</h2>
+              <p>깨끗한 원재료 그대로<br />정성을 담은 상하농원 과일공방</p>
+              <a
+                class="outline-button"
+                href="https://www.sanghafarm.co.kr/brand/index.jsp"
+                target="_blank"
+                rel="noopener"
+                >더보기 ↗</a
+              >
+            </div>
+          </article>
+          <article class="workshop-panel workshop-2">
+            <img
+              src="assets/thumb_program3.jpg"
+              alt="카스텔라공방"
+              loading="lazy"
+            />
+            <div>
+              <span>03</span>
+              <h2>카스텔라공방</h2>
+              <p>깨끗한 원재료 그대로<br />정성을 담은 상하농원 카스텔라공방</p>
+              <a
+                class="outline-button"
+                href="https://www.sanghafarm.co.kr/brand/index.jsp"
+                target="_blank"
+                rel="noopener"
+                >더보기 ↗</a
+              >
+            </div>
+          </article>
+          <article class="workshop-panel workshop-3">
+            <img
+              src="assets/thumb_program4.jpg"
+              alt="발효공방"
+              loading="lazy"
+            />
+            <div>
+              <span>04</span>
+              <h2>발효공방</h2>
+              <p>깨끗한 원재료 그대로<br />정성을 담은 상하농원 발효공방</p>
+              <a
+                class="outline-button"
+                href="https://www.sanghafarm.co.kr/brand/index.jsp"
+                target="_blank"
+                rel="noopener"
+                >더보기 ↗</a
+              >
+            </div>
+          </article>
+          <article class="workshop-panel workshop-4">
+            <img
+              src="assets/thumb_program5.jpg"
+              alt="참기름공방"
+              loading="lazy"
+            />
+            <div>
+              <span>05</span>
+              <h2>참기름공방</h2>
+              <p>깨끗한 원재료 그대로<br />정성을 담은 상하농원 참기름공방</p>
+              <a
+                class="outline-button"
+                href="https://www.sanghafarm.co.kr/brand/index.jsp"
+                target="_blank"
+                rel="noopener"
+                >더보기 ↗</a
+              >
+            </div>
+          </article>
+        </div>
+        <div class="workshop-tabs">
+          <label for="workshop-0"
+            ><img src="assets/thumb_program1.jpg" alt="" loading="lazy" /><span
+              >햄공방</span
+            ></label
+          ><label for="workshop-1"
+            ><img src="assets/thumb_program2.jpg" alt="" loading="lazy" /><span
+              >과일공방</span
+            ></label
+          ><label for="workshop-2"
+            ><img src="assets/thumb_program3.jpg" alt="" loading="lazy" /><span
+              >카스텔라공방</span
+            ></label
+          ><label for="workshop-3"
+            ><img src="assets/thumb_program4.jpg" alt="" loading="lazy" /><span
+              >발효공방</span
+            ></label
+          ><label for="workshop-4"
+            ><img src="assets/thumb_program5.jpg" alt="" loading="lazy" /><span
+              >참기름공방</span
+            ></label
+          >
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <img src="assets/logo6.svg" alt="상하농원" />
+          <p>
+            © 2024 SANGHA FARM CO. ALL RIGHTS RESERVED<br />상하농원(유)은
+            매일유업(주)과의 제휴를 통해 공동으로 서비스를 운영하고 있습니다.
+          </p>
+        </div>
+        <div class="footer-links">
+          <a
+            class=""
+            href="https://www.sanghafarm.co.kr"
+            target="_blank"
+            rel="noopener"
+            >입점/제휴문의</a
+          ><a
+            class=""
+            href="https://www.sanghafarm.co.kr"
+            target="_blank"
+            rel="noopener"
+            >인재채용</a
+          ><a
+            class=""
+            href="https://www.sanghafarm.co.kr"
+            target="_blank"
+            rel="noopener"
+            >이용약관</a
+          ><a
+            class=""
+            href="https://www.sanghafarm.co.kr"
+            target="_blank"
+            rel="noopener"
+            >개인정보취급방침</a
+          ><a
+            class=""
+            href="https://www.sanghafarm.co.kr"
+            target="_blank"
+            rel="noopener"
+            >고객센터</a
+          ><a
+            class=""
+            href="https://www.sanghafarm.co.kr"
+            target="_blank"
+            rel="noopener"
+            >윤리 HOT-LINE</a
+          >
+        </div>
+        <div class="company">
+          <p>
+            전라북도 고창군 상하면 상하농원길 11-23<br />대표 : 권태훈　개인정보
+            보호 책임자 : 권태훈<br />사업자등록번호 : 415-86-00211<br />통신판매업신고번호
+            : 제2016-4780085-30-2-00015호<br />상담이용시간 : 09:00~18:00<br />농원운영시간
+            : 연중무휴 09:30~21:00
+          </p>
+        </div>
+        <div class="contact">
+          <a href="tel:15223698"><b>1522-3698</b>고객센터</a
+          ><a href="tel:0635636611"><b>063-563-6611</b>빌리지 예약</a>
+        </div>
+        <div class="app">
+          <h3>상하농원 앱 다운로드</h3>
+          <div>
+            <img src="assets/qr_aos.svg" alt="안드로이드 앱 QR 코드" /><img
+              src="assets/qr_ios.svg"
+              alt="iOS 앱 QR 코드"
+            />
+          </div>
+        </div>
+      </div>
+      <p class="clone-note">
+        HTML · CSS 클론코딩 학습용 페이지 · 공식 사이트가 아닙니다. 사진 및
+        상표의 권리는 상하농원에 있습니다.
+      </p>
+    </footer>
+    <aside class="quick" aria-label="바로가기">
+      <a
+        class=""
+        href="https://www.sanghafarm.co.kr/main.jsp"
+        target="_blank"
+        rel="noopener"
+        ><img src="assets/btn_quick5.svg" alt="정기배송" /></a
+      ><a
+        class=""
+        href="https://www.sanghafarm.co.kr/brand/index.jsp"
+        target="_blank"
+        rel="noopener"
+        ><img src="assets/btn_quick1_pc.svg" alt="공장견학" /></a
+      ><a href="#top" class="to-top" aria-label="맨 위로">↑</a>
+    </aside>
+  </body>
+</html>
