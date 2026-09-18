@@ -1,0 +1,120 @@
+.high_ul {
+    background-color: #A5C000;
+}
+
+.high_left li.active a{
+    background-color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+.sign_up_title > p{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    font-size:2rem;
+    font-weight:500;
+    margin:0;
+    padding: 0;
+}
+
+.sign_up_text {
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    height: 150px;
+
+    align-items: center;
+    justify-content: center;
+    margin:0; 
+    padding: 0;
+}
+
+.sign_up_text p:nth-of-type(1){
+    color: #A5C000;
+    font-size:1.3rem;
+    font-weight: 600;
+    margin: 0;
+    padding: 3px;
+}
+
+.sign_up_text p:nth-of-type(2){
+    font-size:1.3rem;
+    font-weight: 400;
+    margin: 0;
+    padding: 3px;
+}
+
+.sign_up_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign_up_btn button {
+    width: 350px;
+    height: 50px;
+    font-size:1.3rem;
+    color: white;
+    background: #A5C000;
+    border-radius: 15px;
+    border: none;
+}
+
+.sign_up_login{
+    padding: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.sign_up_login p{
+    margin:0;
+    padding:0;
+    text-decoration: underline;
+    color: gray;
+}
+.sign_up_login strong{
+    color : #A5C000;
+}
+
+.sign_up_sns{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sns_title {
+    font-size: 1.3rem;
+}
+
+.sns_icon {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.sns_kakao{
+    display: flex;
+    flex-direction: column;
+    font-size:1.3rem;
+}
+
+.sns_naver{
+    display: flex;
+    flex-direction: column;
+    font-size:1.3rem;
+}
+
+.sns_facebook{
+    display: flex;
+    flex-direction: column;
+    font-size:1.3rem;
+}

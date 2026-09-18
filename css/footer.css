@@ -1,13 +1,16 @@
 footer{
-    padding : 10px 10%;
+    padding : 10px;
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-around; 
     flex-direction: row;
     box-sizing:border-box;
     margin: 0;
-    background-color: lightgray;
-    height:250px;
+    background-color: #f4f4f4;;
+    height:220px;
+    width: 100%;
     min-width: 1200px;
+
+    overflow:hidden;
 }
 footer li{
     margin-bottom: 5px;
@@ -15,8 +18,8 @@ footer li{
 .major{
     display: flex;
     flex-direction: column;
-
-    min-width: 600px;
+    flex-shrink: 0;
+    /* min-width: 600px; */
 }
 
 .major img{
@@ -31,6 +34,7 @@ footer li{
 .service{
     display:flex;
     flex-direction: column;
+    flex-shrink: 0;
 }
 
 
@@ -38,23 +42,24 @@ footer li{
     display:flex;
     text-align: center;
     align-items: center;
+    flex-shrink: 0;
 }
 .contact img{
     width: 50px;
     height: 50px;
 }
 .contact ul{
+    box-sizing: border-box;
     text-align:center;
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding: 0;
+    margin: 0;
+    gap: 30px;
 }
-.contact li{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center
-}
+/* .contact li{
+} */
 .contact p{
     padding: 5px;
     margin: 0;
